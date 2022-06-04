@@ -32,14 +32,15 @@ CONTACT
 
 ## Design Plan
 
-Designs of pages in the Design folder
+- Designs of pages in the Design folder
 
-Two different fonts (text and header):
+- Two different fonts (text and header):
+
     Allerta - Header
     Raleway - Header 2
     Crimson Text - Text
 
-Colour palette:
+- Colour palette:
 
     #001D6D Midnight Blue
     #97DFFC Baby Blue
