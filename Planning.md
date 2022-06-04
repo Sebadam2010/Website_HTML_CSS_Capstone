@@ -35,6 +35,6 @@ Crimson Text - Text
 
 Colour palette:
 
-001D6D Midnight Blue
-97DFFC Baby Blue
-998888 Cinereous (Maybe change)
+#001D6D Midnight Blue
+#97DFFC Baby Blue
+#998888 Cinereous (Maybe change)
