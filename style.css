@@ -18,6 +18,8 @@ body
 
 h1
 {
+    position:relative;
+    top: -20px;
     text-align: center;
     font-family: 'Allerta', sans-serif;
     color:white;
@@ -39,6 +41,13 @@ p
     font-size: 1.5rem;
 }
 
+figcaption
+{
+    font-family: 'Crimson Text', serif;
+    color: rgb(203, 203, 203);
+    font-size: 1.5rem;
+}
+
 header
 {
     background: #97DFFC;
@@ -47,6 +56,18 @@ header
     padding-top: 10px;
     padding-bottom: 20px;
 }
+
+.title-container
+{
+    height:110px;
+}
+
+.title-container h1
+{
+    position:relative;
+    top: -20px;
+}
+
 
 header > ul
 {
@@ -124,16 +145,23 @@ div#home-images > div > img
 
 .gallery
 {
+    position:relative;
+    top: -25px; 
+
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
 }
 
 .gallery img
 {
-    width: 300px;
+    width: 500px;
     height: auto;
+
+    justify-self: center;
+    position:relative;
+    top: -10px;
 }
 
 /* LINKS Page specific */
