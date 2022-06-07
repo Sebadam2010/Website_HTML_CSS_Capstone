@@ -1,4 +1,6 @@
 # Capstone Project (App Academy)
+Deployed at https://sebadam2010.github.io/Website_HTML_CSS_Capstone/
+and using netlify at: https://tangerine-arithmetic-d1b4ed.netlify.app/index.html
 
 ## Requirements
 HOME
