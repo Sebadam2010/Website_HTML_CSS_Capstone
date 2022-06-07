@@ -19,33 +19,44 @@
             </ul>
         </header>
 
-        <form action="#" method="post">
+        <div>
+            <h1> Contact Us </h1>
+        </div>
 
+        <form action="/" method="post">
             <fieldset>
-                <div>
+                <div id="form-wrapper">
 
-                    <div>
-                        <label for="Name"> Name </label>
-                        <input type="text" id="Name" name="Name">
+
+                    <div id="text-box-wrapper">
+                        <div id="name" class="div-text-box">
+                            <label for="Name" id="name"> Name </label>
+                            <input type="text" id="Name" name="Name" required>
+                        </div>
+    
+                        
+                        <div id="email" class="div-text-box">
+                            <label for="email" id="email">Email</label>
+                            <input type="email" id="email" name="email_address" required>
+                        </div>
+                        
+                        <div id="message" class="div-text-box">
+                            <label for="message" id="message"> Message </label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
                     </div>
 
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email_address">
-                    </div>
                     
-                    <div>
-                        <label for="comments"> Comments </label>
-                        <textarea id="comments" name="comments"></textarea>
-                    </div>
 
-                    <div>
-                        <label for="checkbox"> Fake Captcha </label>
-                        <input type="checkbox" id="checkbox" name="fake_captcha">
-                    </div>
-
-                    <div>
-                        <button type="submit"> Submit </button>
+                    <div id="bottom-layer">
+                        <div>
+                            <label for="checkbox" id="checkbox"> Fake Captcha </label>
+                            <input type="checkbox" id="checkbox" name="fake_captcha" required>
+                        </div>
+    
+                        <div id="submit">
+                            <button type="submit"> Submit </button>
+                        </div>
                     </div>
 
                 </div>
